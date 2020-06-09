@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1ILhLvsd9TWs8RK5WuVJsDDvQgX0dYoRi'
 export_file_name = 'export.pkl'
 
-classes = ['toyota','nissan','bmw','mercedes','ford']
+classes = ['Sedan','Convertible','SUV','Truck','Racing']
 path = Path(__file__).parent
 
 app = Starlette()
